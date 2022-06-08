@@ -58,7 +58,7 @@ function playCraps()
 
 function blastofftimerV2(){
     //variables 
-    var countdownTimer = 20;
+    var countdownTimer = 50;
 
     // loop used for assignmnet 
     for(var i = 0; i <= 10; i++){
@@ -69,8 +69,8 @@ function blastofftimerV2(){
             } else {
                 document.getElementById("countdownDisplay").innerHTML = countdownTimer;
             }
-            countdownTimer = countdownTimer - 2;
-        }, 2000 * i)
+            countdownTimer = countdownTimer - 5;
+        }, 5000 * i)
 
     }
 
